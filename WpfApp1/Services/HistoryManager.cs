@@ -15,6 +15,7 @@ namespace WpfApp1.Services
             var appFolder = Path.Combine(appData, "WpfApp1");
             Directory.CreateDirectory(appFolder);
             _historyFile = Path.Combine(appFolder, "request_history.json");
+            // aaa
             _histories = LoadHistories();
         }
 
